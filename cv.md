@@ -1,1 +1,1 @@
-# Dmitry Smirnov
+# Dmitriy Smirnov
