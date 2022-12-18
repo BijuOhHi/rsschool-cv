@@ -3,7 +3,6 @@
 ## Junior Frontend Developer
 ***
 ## Contact information:
-__Phone :__ +375291372540
 __Email :__ regndreg37@gmail.com
 __Telegram:__ @Biju8
 [Linkedln](https://www.linkedin.com/in/dmitriy-smirnov-2b7151236/)
@@ -46,7 +45,7 @@ describe("Multiply", () => {
 
 ```
 
-### And my first project
+## My first project
 
 [Rsschool-cv](https://github.com/BijuOhHi/rsschool-cv.git)
 
