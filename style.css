@@ -18,7 +18,7 @@ body {
  font-size: 18px;
  font-weight: 400;
  line-height: 1.5;
- color: blue;
+ color: rgb(0, 0, 0);
 }
 
 .container {
@@ -31,10 +31,13 @@ body {
  justify-content: flex-end;
  align-items: center;
  list-style: none;
- padding: 0 20px;
- line-height: 50px;
  transition: .3s;
  cursor: pointer;
+}
+
+.nav-link {
+ padding: 0 20px;
+ line-height: 50px;
 }
 
 html {
@@ -67,10 +70,10 @@ html {
 }
 
 .section-title {
- font-size: 20px;
- font-weight: 400;
+ font-size: 40px;
+ font-weight: 200;
  text-transform: uppercase;
- letter-spacing: 5px;
+ letter-spacing: 7px;
  color:blue;
 }
 
