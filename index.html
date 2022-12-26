@@ -1,123 +1,147 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>cv</title>
-    <style>
-      body {
-       background: cornflowerblue;
-      }
-    </style>
-    <link rel="icon" href="favicon.ico">
-    <link rel="slylesheet" href="slyle.css">
-    <img src="./assets/img/MyPhoto.png" alt="MyPhoto">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="#profile" class="nav-list">Profile</a></li>
-            <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
-            <li class="nav-item"><a href="#aboutmyself" class="nav-link">About Myself</a></li>
-            <li class="nav-item"><a href="#skillprof" class="nav-lin">Skills and Proficiency</a></li>
-            <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
-            <li class="nav-item"><a href="#project" class="nav-linl">My first project</a></li>
-            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-          </ul>
-        </nav>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-list">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-list">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-list">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-list">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-list">Education</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-list">Projects</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-list">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ <main>
+  <div class="container">
+    <section class="profile">
+      <div class="profile_container">
+        <div class="profile_img">
+          <img src="./MyPhoto.png" alt="Dmitriy Smirnov">
+        </div>
+        <div>
+          <h1 class="profile_name">
+            <span class="profile_name_firstName">Dmitriy</span>
+            <span class="profile_name_lastName">Smirov</span>
+          </h1>
+          <p class="profile_title">Frontend Developer</p>
+          <p class="description profile_description" id="summary">
+            In my two years of college, as a tech programmer, I realized that I actually have skills and potential in this field. At the moment, I can combine work and education because I work as a system administrator in a library. My employer and colleagues note that I am ready to go with full confidence to the goal and achieve success. I believe I can become a Frontend developer in the future.
+          </p>
+        </div>
       </div>
-    </header>
-    <main class="main">
-      <div class="container">
-        <section class="section" id="profile">
-          <hr>
-          <h1>Dmitriy Smirnov</h1>
-          <hr>
-          <h2>Junior Frontend Developer</h2>
-          <hr>
-        </section>
-        <section class="section" id="contacts">
-          <h2>Contact information</h2>
-          <ul>
-            <li>Email : dsmironovdev@gmail.com</li>
-            <li>Telegram : t.me/Biju8 </li>
-            <li><a href="https://www.linkedin.com/in/dmitriy-smirnov-2b7151236/">Linkedln profile</a></li>
+    </section>
+   <div class="section-1">
+      <section class="skills" id="skills">
+        <h2 class="title">Skills and Proficiency</h2>
+        <ul class="skills_list description">
+          <li>HTML5, CSS3</li>
+          <li>С# basic</li>
+          <li>Git, Github</li>
+        </ul>
+      </section>
+
+      <section class="edu" id="education">
+        <h2 class="title">Education</h2>
+        <div class="edu_item">
+          <p class="item_preTitle">Secondary education 2017-2020</p>
+          <h4 class="item_title"> Computer graphics department</h4>
+          <p class="item_subtitle">
+            Gomel College of Commerce and Economics
+          </p>
+        </div>
+      </section>
+
+      <section class="languages" id="english">
+        <h2 class="title">Languages</h2>
+        <div class="languages_item">
+          
+          <h4 class="item_title">English </h4>
+          <p class="description">
+            Pre-Intermediate (A2+)</p>
+        </div>
+        <div class="languages_item">
+          <h4 class="item_title">Russian</h4>
+          <p class="description">
+            Native</p>
+        </div>
+      </section>
+    </div>
+    <div class="section-2">
+      <section class="exp" id="projects">
+        <h2 class="title">Work experience</h2>
+        <div class="exp_item">
+          <p class="item_preTitle">First project</p>
+          <h4 class="item_title"> <a class="exp-link" href="https://github.com/BijuOhHi/rsschool-cv.git/
+            ">CV project</a></h4>
+          <ul class=" exp-list description">
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
-          <hr>
-        </section>
-        <section class="section" id="aboutmyself">
-          <h2>About Myself</h2>
-          <p>In my two years of college, as a tech programmer, I realized that I actually have skills and potential in this field. 
-            At the moment, I can combine work and education because I work as a system administrator in a library. 
-            My employer and colleagues note that I am ready to go with full confidence to the goal and achieve success. 
-            I believe I can become a Frontend developer in the future.</p>
-            <hr>
-        </section>
-        <section class="section" id="skillprof">
-          <h2>Skills and Proficiency</h2>
-          <ul>
-            <li>HTML5, CSS3 Basics</li>
-            <li>Git, GitHub</li>
-            <li>C#</li>
-          </ul>
-          <hr>
-        </section>
-        <section class="section" id="code">
-          <h2>Code after registration in CODEWARS:</h2>
-          <p><code>function multiply(a, b){<Br>
-            return a * b;<Br>
-           }<Br>
-           
-           const assert = require("chai").assert;<Br>
-           
-           describe("Multiply", () => {<Br>
-             it("fixed tests", () => {<Br>
-               assert.strictEqual(multiply(1,1), 1);<Br>
-               assert.strictEqual(multiply(2,1), 2);<Br>
-               assert.strictEqual(multiply(2,2), 4);<Br>
-               assert.strictEqual(multiply(3,5), 15);<Br>   
-             });<Br>
-           });</code></p>
-           <hr>
-        </section>
-        <section class="section" id="project">
-          <h2>My first project</h2>
-          <a href="https://github.com/BijuOhHi/rsschool-cv.git">Rsschool-cv</a>
-          <hr>
-        </section>
-        <section class="section" id="aducation">
-         <h2>Aducation</h2>
-         <ul>
-          <li>Secondary education</li>
-          <li>Duration of training 2 years 10 months</li>
-          <li>Computer graphics department</li>
-          <li>Specializing in computer technician</li>
-          <li>During the training, the basic programming language: </li>
-           <ul>
-            <li>Pascal ABC</li>
-            <li>And the foundations of programming on С#</li>
-           </ul>
-         </ul>
-         <hr>
-        </section>
-        <section class="section" id="languages">
-         <h2>Languages</h2>
-         <li>English - Intermediate(A2)</li>
-         <li>Russian - Native</li>
-         <li>Belarusian - Native</li>
-         <li>Latvian - Basic</li>
-        </section>
+        </div>
+      </section>
+      <section class="code" id="code">
+        <div class="code_item">
+        <h4 class="title">Code example</h4>
+        <p class="description">Сondition of the problem : this code does not execute properly. Try to figure out why.
+        </p>
+        <div class="code-example">
+          <code>
+            function multiply(a, b){<br>
+              return a * b;<br>
+             }<br>
+             const assert = require("chai").assert;<br>
+             describe("Multiply", () => {<br>
+               it("fixed tests", () => {<br>
+                 assert.strictEqual(multiply(1,1), 1);<br>
+                 assert.strictEqual(multiply(2,1), 2);<br>
+                 assert.strictEqual(multiply(2,2), 4);<br>
+                 assert.strictEqual(multiply(3,5), 15); <br>  
+               });<br>
+             });<br>
+            </code>
+         </div>
       </div>
-    </main>
-    <footer class="footer">
-     <div class="container"></div>
-     <hr>
-     <a href="https://github.com/BijuOhHi">Visit my GitHub</a>
-     <a href="https://rs.school/js/"><img src="rs_school.svg" alt="rsschoolb" width="70" height="70"></a>
-     <p>© 2022</p>
-    </footer>
-    <script src="js/scripts.js"></script>
-  </body>
+      </section>
+      <section class="contact" id="contacts">
+        <h2 class="title">Contact</h2>
+        <ul class="contact_info">
+          <li class="description">
+            Minsk, Belarus
+          </li>
+          <li class="description">
+            Telegram:@Biju8
+          </li>
+          <li class="description">
+            dsmirnovdev@gmail.com
+          </li>
+        </ul>
+    </section>
+  </div>
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <hr>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="https://github.com/BijuOhHi" class="nav-link-footer">Github</a></li>
+            <li class="nav-item"><a href="#" class="nav-link-footer">2022©</a></li>
+            <li class="nav-item"><a href="https://rs.school/js/" class="nav-link-footer"><img src="https://rs.school/images/rs_school_js.svg" alt="logo"></a></li>
+        </ul>
+    </nav>
+</div>
+</footer>
+</body>
 </html>
